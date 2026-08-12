@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1-alpha.1",
+  "notes": "Auto update + stream tin nhắn cấp message + display-name + redesign Linear-based",
+  "pub_date": "2026-08-12T09:24:57Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmxheTNITUs2YlUxd1lmTDhOYktRRFNTdVpqWGNoWHhuUHFuSUl2aysrOTRmQUY0SUc1Q2lDbzZqK2x1SUZKSjNqamZSbjhMR2M0TVFXaFdnUHhSeEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI2NTA5CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKQlAxMkUwdFRvRVpPQ083MGJxZTlLQnFEbG41M21OQW1TZUJ6Qm5qc0hjQ3FJTDhNclE0VUc0MDBXY2E2eXJLdzFGK1V0TlQrUFNHanNjU01td2hRQlE9PQo=",
+      "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
+    }
+  }
+}
