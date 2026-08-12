@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1-alpha.1",
-  "notes": "Auto update + stream tin nhắn cấp message + display-name + redesign Linear-based",
-  "pub_date": "2026-08-12T09:24:57Z",
+  "version": "0.0.1-alpha.2",
+  "notes": "Stream tin nhắn SSE delta (P1) + fix group member alias (trang/lavie/pepsi) + group stream",
+  "pub_date": "2026-08-12T16:05:24Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WnF6VXBtMVhzNGNYdE0yTVY4ZXR0SE5JZUQySkcrQ3B5RDhKeXMrYkRpQW12dWtQU3N3MWdLZkNiQVFJZ3JQbldjVDdnOTJweElSdkRXa2NrTElPNlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTI2OTc3CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKRTFGdUtHZkdCVE9lTlZsR3laN2doZGxiYTE0bHJEbDZteDRsekhMdWJzdzhXdUlMa3d0K0hvbW9qZnd0L3FqYWN2bi9jK3JZUkNYbk41c21WSmJYQ1E9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5Wm1FWmFoTlhGRmovMldUTDhWbjFCVW9JL0RUYXEvSGNYbWR3dThTSVVVSUhNRVlGUytkcXZJVExjZHhHbWx3LzI2MnJORkRJZ0RDOHBPUG1Td1p1b0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTUwNjg0CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKdWJ0Rlg1cDVPUlhhVHpBUGlJSkpseDBCeDZuZW1telhHVUVyQWZuOVBIZXN6V2w2bWUvU2gzMDcvaG45UVZkbjVqUmh2b05JR3E1cThtM0FPVHNZRFE9PQo=",
       "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
     }
   }
