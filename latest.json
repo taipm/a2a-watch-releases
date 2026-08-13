@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1-alpha.6",
-  "notes": "Fix hết 'dữ liệu cũ' khi mở app (stamps.json — chỉ tải hội thoại thực sự đổi), + UI cấu hình agents/nhóm, hiện version statusbar",
-  "pub_date": "2026-08-13T06:50:00Z",
+  "version": "0.0.1-alpha.7",
+  "notes": "Gửi được tin cho CC từ máy khác (peer token lấy từ Keychain) + log lý do nguồn stale",
+  "pub_date": "2026-08-13T07:40:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmttYi82Z0Q3T3cvTEJQc3Zqbm8xMFB2MC93dmQzaWpGK0g5algyUDRxeFhmbEI4dWNRWkxwSDFUTURjSHRuRkZGSzVZaGM1bE1HUnMrYzdGR2dqSWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjAzNzY0CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKVER1dWNKKzJLYVNzKzVrRWprdTJZK0t6VWZRMGpIUjNSeTF0YU5hellMd29ZemxheEJuNEcxUXgvZ3NQY3NZNHdmYTBnLzErMWFlSzdLSktJRmVZREE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WnVYSjFOcklKeExZclhzUGthY1lGc1ZKT1VxWHRGRTQ2VUpaM3FZV3FwNEU1dzhUK0Y0dTZNRm00MktjemFkdTFrWlFyTk5JZStLUnpqbU1hb2cyL0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA2NzQ4CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKcUwvZDFaeFlhaHg1a0FFOUh6SG9YZ2pHNDgvU3J3clB6VlgyQTBETE9uN0hMQ3lGUjJPellVbW0xYXhWV1BscFVWMEZUSEU0ZGxHVWJPTHNBUXdUQVE9PQo=",
       "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
     }
   }
