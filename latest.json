@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1-alpha.3",
-  "notes": "@mention trong group (gõ @tên gửi trực tiếp) + stream P1 + fix group alias",
-  "pub_date": "2026-08-12T16:32:47Z",
+  "version": "0.0.1-alpha.4",
+  "notes": "Sửa timeout stream + mượt hiệu năng, nhớ token trong tiến trình (bớt hỏi Keychain), hỏi đồng ý trước khi dùng DeepSeek, siết CSP",
+  "pub_date": "2026-08-13T03:58:06Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5Wmh4eUZMbW9xQjZlS09mV2JIdE9WL0pVMkQreStFdjUrWCtUclIvcUpkRU0rV3F5RmpydXU2MU1vTUxDckh1V2pqdk5JVVhmVDlTQWJzOGJ5N2U4ZUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTUyMzUzCWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKMEt5QjFhTnhLZ3NJTFh0UEloSy9JRnE5VVUxVU5oTW9rQVAycHdHNFNhZ1hNZGpWallWSWxOeklNU1JBWjh4RE4vTDhPVFlQR0NZRU9XUm5hVUFHQ3c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WnJSRDkvTkV2aTRUN2hTb1h4eGVWeVpqOE84bG9QYVN3RVFER1FCVzBWWXl6Q0ZBYmdYblJrZXYyYjFXc3NJcFkyWDh5bkExa1ozT21FUTBRSmtvVmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTkzMzA3CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKZENOdWlrWDllOHoxMS9rSEVxVUZBRVVWbXBLeGNLSHU3eHY3SGVXMjJ0VTNDMWZndFhTekJ3bzlnK2c3ODRCOGI2cGp3K3RtaW5MOUpmT2oxRk1iQ3c9PQo=",
       "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
     }
   }
