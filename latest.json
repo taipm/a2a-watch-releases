@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1-alpha.10",
-  "notes": "alpha.10: ký Developer ID + notarize — hết hỏi mật khẩu Keychain sau mỗi lần cập nhật (lần đầu mở bản này vẫn hỏi MỘT lần, bấm Always Allow là xong). Ảnh tách khỏi thread.jsonl ra file riêng nên vòng poll không nặng dần. Siết biên nhận ảnh: kiểm magic bytes thay vì tin mimeType, app không tự tải link ngoài nữa. Lỗi thôi bị nuốt im lặng: nguồn/thành viên lỗi vẫn hiện trên UI, logger bật ở cả bản phát hành.",
-  "pub_date": "2026-08-14T08:13:26Z",
+  "version": "0.0.1-alpha.11",
+  "notes": "alpha.11: đợt 16 cải tiến giao diện. Tin dài của agent giờ đọc như tài liệu — cột chữ canh giữa thay vì nhét vào bong bóng chat dồn phải; code block và link trong tin nhắn đọc được (trước đây code block gần như tàng hình). ⌘K nhảy tới bất kỳ hội thoại hay nhóm nào mà không phải cuộn. Badge tin chưa đọc từng hội thoại, sống qua restart. Sidebar không còn bật về đầu danh sách mỗi 2 giây khi đang cuộn. Click link trong tin nhắn mở trình duyệt thay vì nuốt cả app. Giao diện macOS thật hơn: một thanh tiêu đề chứ không hai, kéo được, Cmd+, mở cài đặt, cửa sổ nhớ vị trí đã đóng. Lỗi gửi nhóm chỉ rõ member nào hỏng và vì sao. Đi lại được bằng bàn phím và screen reader đọc được tên các nút.",
+  "pub_date": "2026-08-14T12:00:29Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmdKQ3p2VHpUbGt2bmREMkpUdkcvVDJJYVRXNWFYZmlxQXA1TEFWU2pNeDhqQUpTNHRJbTJMNTRoZHgzNzZoS1Bzd2NYdFJYQStnWDRaVDVqMTVZMWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Njk1MDI5CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKb3c5RjB6SlovL3h5NXZCTVdtSTRMTFBSU2xMTU1LMnlmdlBhcEtMbHh1WFpyTkVPOHBWTEwyVnpFdVBnMVhVYnoxN0JIc2IydWp4c0NlRmVHMUJYRFE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmdwZVRZak1Fd0RPZnZPV1lmcENxb2xtSFhsbm1xTFZnQ0dyU0o2YVV6VWRxZHZrSC9DRnpqdm9saTZJRTFRV21ub3FCbmZqa2pXaUZDWnFBQkoxRVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA4NzIxCWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKWjRXN044SWxGV1ZRK0dQc0RMQ1JmSkwrMGFHdjdGOUxGaVBsMksrTVFkemhpamh4amFmNzhIUG5oQWlrZU9oYWdKSzZTZzRaQitORmhwQmZVOU9YQUE9PQo=",
       "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
     }
   }
