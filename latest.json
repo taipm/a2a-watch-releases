@@ -1,11 +1,11 @@
 {
-    "version": "0.0.1-alpha.9",
-    "notes": "alpha.9: gửi và xem ảnh ngay trong chat nhóm (MIME whitelist đóng, trần 4MB/ảnh · 8MB/tin · 6 ảnh); nợ: ảnh base64 trong thread.jsonl (tối ưu sau)",
-    "pub_date": "2026-08-13T09:52:00Z",
-    "platforms": {
-        "darwin-aarch64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmttTmpWeXlSU3k1U2xuSjlVSFpLOFpoME9oWHBEa1NVNTdVNFB2M0hldllWdnlOREZhUzNuS2tvQTJwNXJxQng5SmMyc3BGd1Iwdy9DYVpMRStkbVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjE4MTMzCWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKanEvc05NZkdVWnRwbTcxaEVTNzlmaC8xTHl6OTVzcHQ3SWZxMnFtRkRGUGI3dzAxb0NJcmtkek9CVnNERGthdFEvQ0d3S3B0Rjd1MUNzRmozbnhuQkE9PQo=",
-            "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
-        }
+  "version": "0.0.1-alpha.10",
+  "notes": "alpha.10: ký Developer ID + notarize — hết hỏi mật khẩu Keychain sau mỗi lần cập nhật (lần đầu mở bản này vẫn hỏi MỘT lần, bấm Always Allow là xong). Ảnh tách khỏi thread.jsonl ra file riêng nên vòng poll không nặng dần. Siết biên nhận ảnh: kiểm magic bytes thay vì tin mimeType, app không tự tải link ngoài nữa. Lỗi thôi bị nuốt im lặng: nguồn/thành viên lỗi vẫn hiện trên UI, logger bật ở cả bản phát hành.",
+  "pub_date": "2026-08-14T08:13:26Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmdKQ3p2VHpUbGt2bmREMkpUdkcvVDJJYVRXNWFYZmlxQXA1TEFWU2pNeDhqQUpTNHRJbTJMNTRoZHgzNzZoS1Bzd2NYdFJYQStnWDRaVDVqMTVZMWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Njk1MDI5CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKb3c5RjB6SlovL3h5NXZCTVdtSTRMTFBSU2xMTU1LMnlmdlBhcEtMbHh1WFpyTkVPOHBWTEwyVnpFdVBnMVhVYnoxN0JIc2IydWp4c0NlRmVHMUJYRFE9PQo=",
+      "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
     }
+  }
 }
