@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1-alpha.11",
-  "notes": "alpha.11: đợt 16 cải tiến giao diện. Tin dài của agent giờ đọc như tài liệu — cột chữ canh giữa thay vì nhét vào bong bóng chat dồn phải; code block và link trong tin nhắn đọc được (trước đây code block gần như tàng hình). ⌘K nhảy tới bất kỳ hội thoại hay nhóm nào mà không phải cuộn. Badge tin chưa đọc từng hội thoại, sống qua restart. Sidebar không còn bật về đầu danh sách mỗi 2 giây khi đang cuộn. Click link trong tin nhắn mở trình duyệt thay vì nuốt cả app. Giao diện macOS thật hơn: một thanh tiêu đề chứ không hai, kéo được, Cmd+, mở cài đặt, cửa sổ nhớ vị trí đã đóng. Lỗi gửi nhóm chỉ rõ member nào hỏng và vì sao. Đi lại được bằng bàn phím và screen reader đọc được tên các nút.",
-  "pub_date": "2026-08-14T12:00:29Z",
+  "version": "0.0.1-alpha.12",
+  "notes": "alpha.12: sửa lỗi làm mất câu trả lời của agent. Trước đây mọi lượt agent chạy quá 2 phút đều bị app tự cắt giữa chừng với thông báo \"lỗi đọc stream: timeout\" — dù agent vẫn đang làm việc bình thường. Nay stream sống chừng nào agent còn gửi dữ liệu về, và nếu kết nối thật sự đứt thì phần agent đã kịp nói được giữ lại trong lịch sử thay vì mất trắng. Chữ trả lời giờ chảy đều thay vì hiện từng mảng rồi khựng, khung chat không còn tự nhảy mỗi 2 giây khi đang đọc, và không bị kéo tuột về cuối khi bạn cuộn lên xem lại — kể cả khi dùng VoiceOver hay bôi đen để copy. Ảnh trong tin nhắn hiện đúng tỉ lệ và không làm nội dung nhảy khi tải xong.",
+  "pub_date": "2026-08-14T15:17:22Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmdwZVRZak1Fd0RPZnZPV1lmcENxb2xtSFhsbm1xTFZnQ0dyU0o2YVV6VWRxZHZrSC9DRnpqdm9saTZJRTFRV21ub3FCbmZqa2pXaUZDWnFBQkoxRVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzA4NzIxCWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKWjRXN044SWxGV1ZRK0dQc0RMQ1JmSkwrMGFHdjdGOUxGaVBsMksrTVFkemhpamh4amFmNzhIUG5oQWlrZU9oYWdKSzZTZzRaQitORmhwQmZVOU9YQUE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WnFZM0lEVzVwVUp1STZGMFlFVGlmbmwwTnZDY2k1RUp0Y3JKTlZHNmZCNnFyMm4zT2VHVHcwWmRDZUVwajNKWkhKVmcrdUJHWDlHMEs4ZWtiQ3VSNkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzIwNTc3CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKZHBhdE53QmU3SitBaEM2a0gzMXduc1RUcDIvUWlES2pqNWNoYzREMHhiYlZ1UW01UndqMmhtWU9tQnB1eWhjSmw1MWk0dHV6aUtNZnkrRGxQTzRQQXc9PQo=",
       "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
     }
   }
