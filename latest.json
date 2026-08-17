@@ -1,10 +1,10 @@
 {
-  "version": "0.0.1-alpha.14",
-  "notes": "alpha.14: dọn ~35 điểm còn sót của đợt nâng cấp giao diện trước. Hội thoại dài quá 200 tin từng âm thầm ngừng báo tin mới — nay báo lại đúng. Tin dài của agent không còn nhảy bố cục đúng lúc vừa trả lời xong. Gửi tin nhóm mà lỗi ở cấp nhóm thì hiện đúng câu lỗi, thay vì đổ cho một thành viên và báo \"1/1 thành viên lỗi\". Trạng thái đã đọc không còn phình mãi theo hội thoại đã xoá, và không còn nguy cơ bị xoá trắng khi groups.json hỏng cú pháp. Bàn phím đi trong danh sách hội thoại gọn hơn hẳn (trước mỗi dòng ăn hai điểm dừng Tab), VoiceOver đọc đúng tên nút và đọc \"N tin chưa đọc\" thay vì số trần, ⌘K báo đúng mục đang chọn khi bấm mũi tên. ⌘, bấm từ cửa sổ hội thoại riêng nay kéo cửa sổ chính lên kể cả khi nó đang thu nhỏ. Link ngoài mở hỏng thì báo thay vì im lặng. Viền quanh code trong tin và thanh kéo giữa hai khung dễ nhìn hơn.",
-  "pub_date": "2026-08-17T03:29:16Z",
+  "version": "0.0.1-alpha.15",
+  "notes": "alpha.15: sửa hai lỗi không liên quan nhau nhưng cùng lộ ra trong một buổi chat. Tin nhắn chứa regex hoặc lệnh shell có dấu \\[ \\] từng bị hiểu nhầm là công thức toán rồi vẽ thành từng chữ cái rời nhau, mỗi ký tự một dòng — nay giữ nguyên chữ như bạn gõ. Và việc đặt tên hội thoại bằng AI hoạt động trở lại: mọi hội thoại gần đây đều mang tên theo mã ngẫu nhiên vì nhà cung cấp cũ hết hạn mức, nay chuyển sang MiniMax. Vì nội dung giờ gửi tới một dịch vụ khác, app sẽ hỏi lại quyền của bạn đúng một lần — bạn từng đồng ý gửi cho DeepSeek chứ không phải cho MiniMax, nên chúng tôi hỏi lại thay vì mặc định dùng lại câu trả lời cũ. Từ chối thì hội thoại vẫn dùng tên theo thời gian, mọi thứ khác không đổi.",
+  "pub_date": "2026-08-17T08:14:05Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WmlsQ0lnU1Budys5K3VjMlVVOGdjM21xSjBsMHJOOHQxcVZzZ2tiMSs4aDRmdlZ1UXRWaGhjOFFmQ0RUaUgyelEwamtGWjc3QnZQcURnSTV5SUViNndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTM0MjkzCWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKcUV1eWFyZHUvZElaSnNDR3dmalNwR1owNVVodDdEZG5yMHYxNitLZHJRVE5qakpyem9GMzBUNmNZUGpUaFk2cXZvLzhmODFuRW5saTl2ODNqY2RiQVE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZTRsSjBZaXc5WnJlandDK0YwYWhjSVFONTNYd2VkdXlBWVVCb1hvTW95eVZYTjdLN3RJOGtrRU01MXBQaW9jMHNXb2YyNW5EcitGWkxrMHJrdXpZWHVvMTlrMzVwTGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2OTU0NDQ1CWZpbGU6QTJBIFdhdGNoLmFwcC50YXIuZ3oKV01qcENZL3NMSjN3VmIwaitkSHhyZDhnTEJ6K3JHdEdTQjUwYUNlaVVqWmpPT1hBSUpMSEFtV1lnQjdIcXBlRVVmR21ETGxBWWYzc3l1cVBHNVJSQ3c9PQo=",
       "url": "https://raw.githubusercontent.com/taipm/a2a-watch-releases/main/A2A-Watch-aarch64.app.tar.gz"
     }
   }
